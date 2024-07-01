@@ -1,0 +1,17 @@
+body {
+   height: 1000px;
+}
+#textm {
+   font-size: 24px;
+   margin-left: 800px;
+}
+#vot{
+   font-size: 30px;
+   margin-left: 500px;
+
+}
+#dva{
+   font-size: 24px;
+   margin-left: 250px;
+   margin-top: 10px ;
+}

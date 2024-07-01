@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+body {
+   background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1614773039_129-p-nezhnii-fon-dlya-saita-142.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+
+}
+
+body {
+   height: 7000px;
+
+}
+
+.head {
+   background-color: rgb(189, 177, 243);
+   height: 250px;
+   width: 100%;
+   border-radius: 0px 0px 30px 30px;
+   border-bottom: 10px solid #78a3ad;
+   z-index: 0;
+   margin: 0px;
+   top: -110px;
+}
+
+
+.text {
+   font-size: 55px;
+   padding: 150px;
+   font-family: Briem Hand;
+   text-align: left;
+   position: relative;
+   margin-left: -50px;
+   top: 40px;
+}
+
+.text2 {
+   padding: 20px 800px;
+   font-size: 50px;
+   position: relative;
+   top: 50px;
+   margin-left: -700px;
+
+}
+
+
+
+
+.blok {
+   height: 6400px;
+   background: white;
+   width: 1500px;
+   margin-left: 200px;
+   box-shadow: 10px 10px 10px 10px #6d6b6b;
+   margin-top: 50px;
+   margin-right: 500px;
+   border: 10px solid #8a7297;
+   border-radius: 20px;
+   opacity: 0.8;
+}
+
+.foot {
+   height: 200px;
+   border-radius: 30px 30px 0px 0px;
+   background-color: rgb(189, 177, 243);
+   width: auto;
+   border-top: 10px solid #78a3ad;
+   z-index: 0;
+   margin-top: 170px;
+   top: 110px;
+
+}
+
+#start {
+   height: 300px;
+   width: 1500px;
+   border-bottom: 5px solid #2c2c2c;
+   box-shadow: 0px 3px 0px 0px #888888;
+   z-index: 1;
+   font-size: 50px;
+   text-align: center;
+   color: #000;
+
+}
+
+#hi {
+
+   font-size: 17px;
+   padding: 10px 25px;
+   border-radius: 30px;
+   background-image: linear-gradient(rgb(211, 186, 243), rgb(251, 209, 255));
+   border: 2px solid rgb(50, 50, 50);
+   border-bottom: 5px solid rgb(50, 50, 50);
+   box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+   transform: translate(0, -3px);
+   cursor: pointer;
+   transition: 0.2s;
+   transition-timing-function: linear;
+   position: relative;
+   margin-left: 92.65%;
+   top: 20px;
+
+
+
+}
+
+#hi:active {
+   transform: translate(0, 0);
+   border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+#wraper {
+   font-size: 28px;
+   line-height: 5px;
+
+}
+
+#wraper2 {
+   font-size: 28px;
+   line-height: 5px;
+}
+
+#like {
+   font-size: 34px;
+   top: -350px;
+}
+
+#yes {
+   height: 30px;
+   width: 60px;
+   border: 2px solid black;
+   border-radius: 5px;
+   border-bottom: 4px solid black;
+   transform: translate(0, -3px);
+   transition: 0.2s;
+   cursor: pointer;
+   transition-timing-function: linear;
+   background-color: #e3aeff;
+}
+
+#no {
+   height: 30px;
+   width: 60px;
+   border: 2px solid black;
+   border-radius: 5px;
+   border-bottom: 4px solid black;
+   transform: translate(0, -3px);
+   transition: 0.2s;
+   cursor: pointer;
+   transition-timing-function: linear;
+   background-color: #e3aeff;
+}
+
+#yes:active {
+   border-bottom: 2px solid black;
+   transform: translate(0, 0);
+}
+
+#no:active {
+   border-bottom: 2px solid black;
+   transform: translate(0, 0);
+}
+
+#blok2 {
+   height: 1300px;
+   width: 1500px;
+   border-bottom: 5px solid #2c2c2c;
+   box-shadow: 0px 3px 0px 0px #888888;
+
+}
+
+h1 {
+   position: relative;
+   margin-left: 640px;
+}
+
+#albom {
+   background-image: url(https://ir.ozone.ru/s3/multimedia-0/c1000/6581677788.jpg);
+   height: 1000px;
+   width: 1000px;
+   background-repeat: no-repeat;
+   position: relative;
+   margin-left: 300px;
+   border: 5px solid rgb(121, 121, 121);
+   border-radius: 15px;
+
+}
+
+#book {
+   position: relative;
+   margin-left: 300px;
+   font-size: 26px;
+   top: 1px;
+}
+
+#info {
+   height: 30px;
+   position: relative;
+   margin-left: 40px;
+   top: 100px;
+   background: #e3aeff;
+   border: 2px solid #6d00b6;
+   border-bottom: 5px solid #6d00b6;
+   border-radius: 10px;
+   cursor: pointer;
+   transform: translate(0, 0);
+   transition: 0.2s;
+}
+
+#info:active {
+   border-bottom: 2px solid #6d00b6;
+   transform: translate(0, 0);
+}
+
+#niz {
+   position: relative;
+   margin-left: 450px;
+   font-size: 26px;
+   bottom: 15px;
+}
+
+#blok3 {
+   height: 1600px;
+   width: 1500px;
+   border-bottom: 5px solid #2c2c2c;
+   box-shadow: 0px 3px 0px 0px #888888;
+}
+
+#smotr {
+   position: relative;
+   font-size: 32px;
+}
+
+#primer {
+   position: relative;
+   font-size: 30px;
+   margin-left: 500px;
+}
+
+#smotrfoto {
+   background-image: url(2c46d0ce530304c0167ae967911857ee.jpg);
+   height: 1150px;
+   width: 1100px;
+   background-repeat: no-repeat;
+   position: relative;
+   margin-left: 200px;
+   border: 5px solid rgb(121, 121, 121);
+   border-radius: 15px;
+}
+
+.smotrinfo {
+   height: 200px;
+   width: 1400px;
+   border: 5px solid rgb(124, 124, 124);
+   position: relative;
+   margin-left: 50px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 2px 2px silver;
+   top: 70px;
+
+}
+
+.crug {
+   position: relative;
+   height: 15px;
+   width: 15px;
+   background: red;
+   border-radius: 50%;
+   border: 2px solid black;
+   top: 3px;
+   margin-left: 3px;
+}
+
+#infotext {
+   position: relative;
+   font-size: 32px;
+   top: 5px;
+   margin-left: 5px;
+
+}
+
+#blok4 {
+   height: 1600px;
+   width: 1500px;
+   border-bottom: 5px solid #2c2c2c;
+   box-shadow: 0px 3px 0px 0px #888888;
+}
+
+#urok_foto {
+   background-image: url(2950132_3_1.jpg);
+   position: relative;
+   height: 1200px;
+   width: 1200px;
+   margin-top: 100px;
+   margin-left: 100px;
+   border: 5px solid rgb(121, 121, 121);
+   border-radius: 15px;
+   background-repeat: no-repeat;
+
+}
+
+#smotrinfo {
+   height: 200px;
+   width: 1400px;
+   border: 5px solid rgb(124, 124, 124);
+   position: relative;
+   margin-left: 50px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 2px 2px silver;
+   top: 20px;
+}
+
+#texturok {
+   position: relative;
+   font-size: 36px;
+   margin-left: 70px;
+   top: 30px;
+}
+
+#urok26 {
+   font-size: 32px;
+   position: relative;
+   margin-left: 400px;
+   top: 50px;
+}
+
+#blok5 {
+   height: 1100px;
+   width: 1500px;
+   border-bottom: 5px solid #2c2c2c;
+   box-shadow: 0px 3px 0px 0px #888888;
+}
+
+#urok {
+   background-image: url(df232fd7098a311c9e985424cd065a93.jpg);
+   height: 600px;
+   width: 600px;
+   background-repeat: no-repeat;
+   position: relative;
+   margin-left: 400px;
+   margin-top: 100px;
+   border: 5px solid rgb(121, 121, 121);
+   border-radius: 15px;
+}
+
+#blok5_text {
+   position: relative;
+   margin-left: 450px;
+   margin-top: 50px;
+   font-size: 34px;
+}
+
+#smotrtext {
+   font-size: 30px;
+   position: relative;
+   margin-left: 70px;
+}
+
+#end {
+   height: 300px;
+   width: 1450px;
+   border: 5px solid rgb(124, 124, 124);
+   position: relative;
+   margin-left: 30px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 2px 2px silver;
+   top: 40px;
+}
+
+#endtext {
+   position: relative;
+   font-size: 28px;
+   top: 20px;
+   margin-left: 20px;
+}
+
+#more {
+   font-size: 22px;
+   height: 30px;
+   position: relative;
+   margin-left: 1240px;
+   width: 250px;
+   top: 110px;
+   background: #e3aeff;
+   border: 2px solid #6d00b6;
+   border-bottom: 5px solid #6d00b6;
+   border-radius: 10px;
+   cursor: pointer;
+   transform: translate(0, 0);
+   transition: 0.2s;
+}
+
+#more:active {
+   border-bottom: 2px solid #6d00b6;
+   transform: translate(0, 0);
+   top: 112px;
+}
+
+#thank {
+   position: relative;
+   height: 40px;
+   width: 350px;
+   border: 5px solid #6d00b6;
+   border-radius: 15px;
+   top: 50px;
+   margin-left: 740px;
+   font-size: 32px;
+   padding: 15px;
+   background: #ff9fea;
+   transform: translate(0, 0);
+   transition: 0.3s;
+}
+
+#thank:hover {
+   background: #e3aeff;
+}
+
+.foot {
+   padding-top: 20px;
+   padding-left: 400px;
+   font-size: 30px;
+}
+
+#email {
+   color: #6d6b6b;
+   position: relative;
+   font-size: 24px;
+   margin-top: 70px;
+   margin-left: 1200px;
+
+}
+
+#tel {
+   color: #6d6b6b;
+   position: relative;
+   font-size: 24px;
+   margin-top: 15px;
+   margin-left: 1200px;
+}
+
+#vk {
+   position: relative;
+   border-radius: 50%;
+   height: 64px;
+   width: 64px;
+   bottom: 70px;
+   margin-left: 400px;
+   cursor: pointer;
+   background-image: url(1486147202-social-media-circled-network10_79475.png);
+}
+
+b {
+   position: relative;
+   left: 7px;
+   top: 5px;
+   font-size: 24px;
+}
+
+#tg {
+   position: relative;
+   height: 64px;
+   width: 64px;
+   bottom: 133px;
+   margin-left: 500px;
+   cursor: pointer;
+   background-image: url(telegram_icon-icons.com_72055.png);
+   background-repeat: no-repeat;
+
+}
+
+#onas_blok {
+   height: 200px;
+   background: white;
+   width: 1500px;
+   margin-left: 150px;
+   box-shadow: 10px 10px 10px 10px #6d6b6b;
+   margin-top: 50px;
+   margin-right: 500px;
+   border: 10px solid #8a7297;
+   border-radius: 20px;
+   opacity: 0.8;
+}
+
+#yest {
+   font-size: 20px;
+}
+
+#not {
+   font-size: 20px;
+}
+@media (max-width: 1360px) {
+   #hi {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 1215px) {
+   #hi {
+      font-size: 9px;
+   }
+}
+
+@media (max-width: 1120px) {
+   .text2 {
+      font-size: 40px;
+   }
+
+   #hi {
+      top: 55px;
+   }
+
+   .text {
+      font-size: 45px;
+   }
+}
+
+@media (max-width: 1071px) {
+   #hi {
+      font-size: 9px;
+      top: 85px;
+   }
+
+   .text {
+      font-size: 35px;
+   }
+
+   .text2 {
+      font-size: 25px;
+   }
+}

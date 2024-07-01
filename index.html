@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="main.css">
+      <script scr="max.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   </head>
+
+   <body>
+      <div id="proj">
+      <header class="head">
+         <span class="text">РАЗВИТИЕ МАЛЫША</span>
+         <div class="text2"> С 1 ГОДА</div>
+
+         
+         <button id="hi" onclick="hi">О нас</button>
+      </header>
+      <div class="blok">
+         <div id="start">Всем привет.
+            <p id="wraper">На этом сайте я расскажу о развитии ребенка!</p>
+            <p id="wraper2">Здесь вы можете решить все проблемы с развитием.</p>
+            <div id="blokwraper"></div>
+            <div id="like">Вам нравится такая тема?</div>
+            <button id="yes">ДА!</button>
+            <button id="no">НЕТ!</button>
+            <p id="yest"></p>
+            <p id="not"></p>
+
+            <div id="blok2"></div>
+         </div>
+         <h1>Приступим к делу!</h1>
+         <p id="book">На этом сайте будут примеры из книги Елены Писаревой "Альбом для развития мозга":</p>
+         <button id="info">Подробнее о книге</button>
+         <div id="albom"></div>
+         <p id="niz">В этой книге есть очень много примеров по развитию малыша.</p>
+         <div id="blok3">
+            <div id="smotr">Сейчас мы рассмотрим некоторые уроки.</div>
+            <p id="primer">Вот один из пример из книги (урок 1):</p>
+            <div id="smotrfoto"></div>
+            <div class="smotrinfo">
+               <div class="crug"></div>
+               <div id="infotext">В этом примере интересный стишок для малышей,про кошку Мурку<br>Читайте это стишок
+                  ребенку и добавляйте движения телом,про которые сказано справа.<br>
+                  Это был первый урок из книги, самый простой. </div>
+
+            </div>
+         </div>
+         <div id="blok4">
+            <div id="urok26"> Вот еще один пример из книги(урок 34):</div>
+            <div id="urok_foto"></div>
+            <div id="smotrinfo">
+               <div class="crug"></div>
+               <div id="texturok">Это пример уже более сложный для малыша.Тут нужно многое показывать малышу.<br>Из
+                  книги это урок 34</div>
+            </div>
+
+
+         </div>
+         <div id="blok5">
+            <div id="blok5_text">Сейчас разберем еще один урок (урок 67):</div>
+            <div id="urok"></div>
+            <div class="smotrinfo">
+               <div class="crug"></div>
+               <div id="smotrtext">Это был заключительный урок на сайте,в нем малыш должен был найти правильную тень.
+                  <br>Этот урок довльно сложный, но интересный , и <br> очень полезный для малыша.<br> вас
+                  заинтересовало это,то можете купить книгу!!
+               </div>
+            </div>
+         </div>
+         <div id="end">
+            <div class="crug"></div>
+            <div id="endtext">Интересный факт: Известный детский врач Бенджамин Спок считал, что разговаривать ребенок
+               начинает тогда, когда у него в голове начинает
+               работать речевой центр,<br>а этот центр напрямую связан с работой пальчиков. Поэтому рекомендовал давть
+               детям бумагу, они любят рвать, тем самым
+               работают пальчики. <br> И еще есть пальчиковая
+               гимнастика. Очень полезна для развития речи ребенка<br>Но так же не забывайте чаще разговаривать с
+               ребенком.</div>
+
+
+         </div>
+         <div id="more" type="button">Больше книг по развитию</div>
+         <div class="heart"></div>
+      </div>
+      <div id="thank">Спасибо за внимание!</div>
+      <footer class="foot">Это был сайт про то как научить ребенка разговаривать, надеюсь вам понравилось.
+         <div id="email">Email: mb222260@gmail.com</div>
+         <div id="tel">Телефон: 89513396268</div>
+         <div id="vk"><b></b></div>
+         <div id="tg"><b></b></div>
+
+      </footer>
+      <script>
+         var ret = document.getElementById("hi").addEventListener("click", onas);
+         function onas() {
+            window.location = "onas.html";
+         };
+         var yes = document.getElementById("yes").addEventListener("click", yes);
+         var no = document.getElementById("no").addEventListener("click", no);
+         function yes() {
+            var yest = document.getElementById("yest");
+            yest.textContent = "Отлично";
+            not.textContent = "";
+
+         };
+         function no() {
+            var not = document.getElementById("not");
+            not.textContent = "Почему? Если есть вопросы пишите на почту или соц сети указанные в конце страницы.";
+            yest.textContent = "";
+         };
+
+         var pod = document.getElementById("info").addEventListener("click", pod);
+
+         function pod() {
+            window.location = "pod.html";
+         };
+         
+         var book = document.getElementById("more").addEventListener("click", more);
+         function more (){
+            window.location = "more.html";
+
+         };
+         var vk = document.getElementById("vk").addEventListener("click", vk);
+         function vk () {
+                 window.location = "https://vk.com/maximburtsev3";
+         };
+         var tg = document.getElementById("tg").addEventListener("click", tg);
+         function tg () {
+            window.location = "https://t.me/max_python3"
+         };
+         var burger = document.getElementsByid("burger").addEventListener("click", burger);
+         function burger () {
+            var onash = document.getElementsByid("onash");
+            var knigi = document.getAnimations("knigi");
+            var tgb = document.getAnimations("knigi");
+            var vkb = document.getAnimations("knigi");
+            textContent = onash, knigi, tgb, vkb;
+         };
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </script>
+      
+   </body>
+
+</html>
